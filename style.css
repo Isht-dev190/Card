@@ -1,0 +1,47 @@
+
+.container {
+    display: inline-block;
+    border: 2px solid slategray;
+    border-radius: 5px ;
+    padding: 10px;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+
+
+.image img {
+   display: inline;
+   border-radius: 10px;
+    width: 350px;
+    height: 200px;
+    vertical-align: top;
+    text-align: center;
+    
+}
+.tags h5 {
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 3px;
+    border: 2px solid slategray;
+    border-radius: 5px;
+    vertical-align: top;
+    text-align: center;
+    
+}
+.content {
+    width: 350px;
+    display: block;
+   
+}
+
+.footer {
+    margin: 0px 110px;
+    padding: 0px 10px;
+    display: inline-block;
+}
+.footer > button {
+    background-color: aquamarine;
+    color: blue;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-weight: 700;
+}
